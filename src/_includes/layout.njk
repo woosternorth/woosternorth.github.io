@@ -6,13 +6,11 @@
         <link rel="stylesheet" href="/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Grab title from the page data and dump it here -->
-        <title>Wooster North</title>
+        <title>{{ title }}</title>
     </head>
     <body>
         <!-- Grab the content from the page data, dump it here, and mark it as safe -->
         <!-- Safe docs: https://mozilla.github.io/nunjucks/templating.html#safe -->
-        <h1>Wooster North</h1>
-<p>A project to publish a rich and thorough library of my music.</p>
-
+        {{ content | safe }}
     </body>
 </html>

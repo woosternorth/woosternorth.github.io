@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "songs.md",
             "mode": "source",
             "source": false
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "songs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "songs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "songs.md"
               }
             }
           }
@@ -154,10 +154,10 @@
   },
   "active": "c313c4420c656ddf",
   "lastOpenFiles": [
-    "_templates/_template-frontmatter.md",
+    "recordings.md",
     "songs.md",
     "index.md",
-    "recordings.md",
+    "_templates/_template-frontmatter.md",
     "README.md",
     "README.md.md"
   ]

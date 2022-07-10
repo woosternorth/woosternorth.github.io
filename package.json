@@ -19,10 +19,6 @@
   "homepage": "https://github.com/woosternorth/website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "pug": "^3.0.2",
-    "sass": "^1.53.0"
-  },
-  "dependencies": {
-    "markdown-it-wikilinks": "^1.2.0"
+    "markdown-it-obsidian": "^1.1.0"
   }
 }

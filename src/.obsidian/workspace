@@ -9,7 +9,31 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "src/index.md",
+            "file": "index.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "54dc2234a9043b48",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_templates/_template-frontmatter.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "ea83f7d9ef9d42e6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "recordings.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 258.5
   },
   "right": {
     "id": "14a3f7523583a124",
@@ -77,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/index.md"
+                "file": "index.md"
               }
             }
           }
@@ -130,7 +154,10 @@
   },
   "active": "c313c4420c656ddf",
   "lastOpenFiles": [
+    "_templates/_template-frontmatter.md",
+    "songs.md",
     "index.md",
+    "recordings.md",
     "README.md",
     "README.md.md"
   ]

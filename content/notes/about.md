@@ -8,4 +8,4 @@ If you're thinking "That timing is odd", well, you and me both.
 
 When I first began recording my music in my teens, I suffered from a problem that I only ever heard the things that were wrong with them. Perfectionism calcified into a complex, until I hit a snapping point. Nothing perfect, just everything as it is.
 
-If you're still curious, check out [[about the name]]
+If you're still curious, check out [[notes/about the name]]

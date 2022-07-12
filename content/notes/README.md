@@ -1,8 +1,26 @@
-# Page Header
-This is mostly for my own reference, to see the live site please go to [woosternorth.com](http://woosternorth.com).
+Colophon: 
+![[notes/images/under-construction-gif.gif|50]]
 
 ## Commands:
-- Build site `npx @11ty/eleventy`
+- http://localhost:1313/
+- `make serve`
+- Made using [Quartz](https://quartz.jzhao.xyz/notes/setup/)
 
 ## Todo
-- try this for scss workflow https://www.belter.io/eleventy-sass-workflow/ (I mean, if you actually need it, do you intend on writing a lot of css? No? Probably not??)
+- What's up with the graph? 
+- Styling changes
+	- [[notes/config]] has this info
+- Cleaning out tutorial files:
+	- [[notes/config | config]]
+	- [[notes/custom Domain|custom Domain]]
+	- [[notes/editing]]
+	- [[notes/hosting]]
+	- [[notes/ignore notes]]
+	- [[notes/obsidian]]
+	- [[notes/philosophy]]
+	- [[notes/preview changes]]
+	- [[notes/setup]]
+	- [[notes/showcase]]
+	- [[notes/troubleshooting]]
+	- [[notes/updating]]
+	

@@ -8,7 +8,7 @@
   "/notes": {
     "title": "wooster north",
     "content": "A project to publish a rich and thorough library of my music.\n\nHere's a bit of longer text so I can see where I would like for it to wrap. Hopefully this is going to look good right around the 50 rem mark, but we will see.\n\n- [recordings](/recordings)\n- [[songs]]\n",
-    "lastmodified": "2022-07-11T22:37:13.597212477-04:00",
+    "lastmodified": "2022-07-11T22:37:13.597212434-04:00",
     "tags": null
   },
   "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95": {
@@ -20,19 +20,19 @@
   "/notes/README": {
     "title": "",
     "content": "# Page Header\nThis is mostly for my own reference, to see the live site please go to [woosternorth.com](http://woosternorth.com).\n\n## Commands:\n- Build site `npx @11ty/eleventy`\n\n## Todo\n- try this for scss workflow https://www.belter.io/eleventy-sass-workflow/ (I mean, if you actually need it, do you intend on writing a lot of css? No? Probably not??)",
-    "lastmodified": "2022-07-09T23:14:36.480194526-04:00",
+    "lastmodified": "2022-07-09T23:14:36.480194569-04:00",
     "tags": null
   },
   "/notes/about": {
     "title": "about this project",
     "content": "This project initially started at 2 in the morning, on the last day of march in 2021.\n\u003cblockquote class=\"twitter-tweet\"\u003e\u003cp lang=\"en\" dir=\"ltr\"\u003ehello friends! i’m starting an ambitious project tonight to share all of my music, and i would like to write about it publicly here.\u003c/p\u003e\u0026mdash; woosternorth (@woosternorth) \u003ca href=\"https://twitter.com/woosternorth/status/1377137969304195078?ref_src=twsrc%5Etfw\"\u003eMarch 31, 2021\u003c/a\u003e\u003c/blockquote\u003e \u003cscript async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"\u003e\u003c/script\u003e\n\nIf you're thinking \"That timing is odd\", well, you and me both.\n\nWhen I first began recording my music in my teens, I suffered from a problem that I only ever heard the things that were wrong with them. Perfectionism calcified into a complex, until I hit a snapping point. Nothing perfect, just everything as it is.\n\nIf you're still curious, check out [[about the name]]",
-    "lastmodified": "2022-07-11T22:37:06.668434815-04:00",
+    "lastmodified": "2022-07-11T22:37:06.668434858-04:00",
     "tags": null
   },
   "/notes/about-the-name": {
     "title": "about the name",
     "content": "",
-    "lastmodified": "2022-07-11T22:37:03.914536891-04:00",
+    "lastmodified": "2022-07-11T22:37:03.914536834-04:00",
     "tags": null
   },
   "/notes/config": {
@@ -68,7 +68,7 @@
   "/notes/incomplete": {
     "title": "incomplete",
     "content": "type: #songlet, #improvisation\n",
-    "lastmodified": "2022-07-11T22:37:10.293718122-04:00",
+    "lastmodified": "2022-07-11T22:37:10.2937181-04:00",
     "tags": null
   },
   "/notes/obsidian": {
@@ -92,7 +92,7 @@
   "/notes/recordings": {
     "title": "recordings",
     "content": "A list of all cataloged recordings.",
-    "lastmodified": "2022-07-11T22:37:11.642321205-04:00",
+    "lastmodified": "2022-07-11T22:37:11.642321229-04:00",
     "tags": null
   },
   "/notes/setup": {
@@ -110,7 +110,7 @@
   "/notes/songs": {
     "title": "Songs",
     "content": "Song listing, no real organization at this point.\n- [[In the Silt]]\n- [[incomplete]]",
-    "lastmodified": "2022-07-11T22:37:08.471136282-04:00",
+    "lastmodified": "2022-07-11T22:37:08.471136332-04:00",
     "tags": null
   },
   "/notes/troubleshooting": {

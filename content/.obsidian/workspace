@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "45d1a94088116939",
+        "id": "76d26a3707af38cb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/editing.md",
+            "file": "notes/troubleshooting.md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "76d26a3707af38cb",
+        "id": "63c955177c8b2c8e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/preview changes.md",
+            "file": "notes/README.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/preview changes.md",
+                "file": "notes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/preview changes.md",
+                "file": "notes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/preview changes.md"
+                "file": "notes/README.md"
               }
             }
           }
@@ -140,16 +140,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "76d26a3707af38cb",
+  "active": "63c955177c8b2c8e",
   "lastOpenFiles": [
-    "notes/obsidian.md",
-    "templates/post.md",
-    "notes/editing.md",
+    "notes/config.md",
+    "notes/troubleshooting.md",
     "notes/README.md",
-    "notes/setup.md",
     "_index.md",
-    "notes/CJK + Latex Support (测试).md",
-    "notes/about the name.md",
-    "notes/about.md"
+    "notes/custom Domain{custom Domain}.md",
+    "notes/obsidian.md",
+    "notes/ignore notes.md",
+    "notes/hosting.md",
+    "notes/editing.md",
+    "notes/custom Domain.md"
   ]
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/songs.md",
+            "file": "notes/README.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/songs.md",
+                "file": "notes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/songs.md",
+                "file": "notes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/songs.md"
+                "file": "notes/README.md"
               }
             }
           }
@@ -142,8 +142,8 @@
   },
   "active": "59252c9dfaed84e1",
   "lastOpenFiles": [
-    "notes/in the silt.md",
     "notes/songs.md",
+    "notes/in the silt.md",
     "notes/README.md",
     "notes/hosting.md",
     "notes/custom Domain.md",

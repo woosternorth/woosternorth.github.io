@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c313c4420c656ddf",
+        "id": "4c9aa21c442cc1d8",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -16,24 +16,12 @@
         }
       },
       {
-        "id": "54dc2234a9043b48",
+        "id": "2df2c5a7d45c80f1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_templates/_template-frontmatter.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "ea83f7d9ef9d42e6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "recordings.md",
+            "file": "incomplete.md",
             "mode": "source",
             "source": false
           }
@@ -101,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "songs.md",
+                "file": "incomplete.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "songs.md",
+                "file": "incomplete.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "songs.md"
+                "file": "incomplete.md"
               }
             }
           }
@@ -152,13 +140,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c313c4420c656ddf",
+  "active": "2df2c5a7d45c80f1",
   "lastOpenFiles": [
-    "recordings.md",
     "songs.md",
-    "index.md",
-    "_templates/_template-frontmatter.md",
+    "recordings.md",
     "README.md",
+    "about.md",
+    "about the name.md",
+    "_templates/_template-frontmatter.md",
+    "index.md",
     "README.md.md"
   ]
 }

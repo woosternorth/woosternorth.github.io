@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/troubleshooting.md",
+            "file": "_index.md",
             "mode": "source",
             "source": false
           }
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/README.md",
+            "file": "notes/setup.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/README.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/README.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/README.md"
+                "file": "_index.md"
               }
             }
           }
@@ -140,17 +140,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "63c955177c8b2c8e",
+  "active": "76d26a3707af38cb",
   "lastOpenFiles": [
-    "notes/config.md",
-    "notes/troubleshooting.md",
-    "notes/README.md",
-    "_index.md",
-    "notes/custom Domain{custom Domain}.md",
-    "notes/obsidian.md",
-    "notes/ignore notes.md",
+    "_index2.md",
     "notes/hosting.md",
+    "notes/preview changes.md",
     "notes/editing.md",
-    "notes/custom Domain.md"
+    "notes/troubleshooting.md",
+    "notes/setup.md",
+    "_index.md",
+    "templates/post.md",
+    "notes/README.md",
+    "notes/config.md"
   ]
 }

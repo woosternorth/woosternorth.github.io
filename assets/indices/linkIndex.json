@@ -4,64 +4,92 @@
       "/": [
         {
           "source": "/",
-          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "text": "CJK + Latex Support"
+          "target": "/notes/README",
+          "text": "the readme file"
         },
         {
           "source": "/",
-          "target": "/notes/setup",
-          "text": "Setup your own digital garden using Quartz"
-        },
-        {
-          "source": "/",
-          "target": "/notes/showcase",
-          "text": "community digital gardens"
-        },
-        {
-          "source": "/",
-          "target": "/notes/philosophy",
-          "text": "why I made Quartz"
-        },
-        {
-          "source": "/",
-          "target": "/notes/updating",
-          "text": "update"
-        },
-        {
-          "source": "/",
-          "target": "/tags/setup",
-          "text": "setup-related notes"
-        },
-        {
-          "source": "/",
-          "target": "/notes/troubleshooting",
-          "text": "Troubleshooting and FAQ"
-        }
-      ],
-      "/notes": [
-        {
-          "source": "/notes",
-          "target": "/recordings",
+          "target": "/notes/recordings",
           "text": "recordings"
         },
         {
-          "source": "/notes",
-          "target": "/songs",
+          "source": "/",
+          "target": "/notes/songs",
           "text": "songs"
         }
       ],
-      "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95": [
+      "/notes/README": [
         {
-          "source": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
+          "source": "/notes/README",
+          "target": "/notes/config",
+          "text": "notes/config"
+        },
+        {
+          "source": "/notes/README",
           "target": "/notes/config",
           "text": "config"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/custom-Domain",
+          "text": "custom Domain"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/editing",
+          "text": "notes/editing"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/hosting",
+          "text": "notes/hosting"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/ignore-notes",
+          "text": "notes/ignore notes"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/obsidian",
+          "text": "notes/obsidian"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/philosophy",
+          "text": "notes/philosophy"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/preview-changes",
+          "text": "notes/preview changes"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/setup",
+          "text": "notes/setup"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/showcase",
+          "text": "notes/showcase"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/troubleshooting",
+          "text": "notes/troubleshooting"
+        },
+        {
+          "source": "/notes/README",
+          "target": "/notes/updating",
+          "text": "notes/updating"
         }
       ],
       "/notes/about": [
         {
           "source": "/notes/about",
-          "target": "/about-the-name",
-          "text": "about the name"
+          "target": "/notes/about-the-name",
+          "text": "notes/about the name"
         }
       ],
       "/notes/config": [
@@ -130,13 +158,6 @@
           "source": "/notes/obsidian",
           "target": "/notes/preview-changes",
           "text": "Preview Quartz Changes"
-        }
-      ],
-      "/notes/preview-changes": [
-        {
-          "source": "/notes/preview-changes",
-          "target": "/notes/hosting",
-          "text": "Hosting Quartz online!"
         }
       ],
       "/notes/setup": [
@@ -219,13 +240,6 @@
           "text": "In the Silt"
         }
       ],
-      "/about-the-name": [
-        {
-          "source": "/notes/about",
-          "target": "/about-the-name",
-          "text": "about the name"
-        }
-      ],
       "/incomplete": [
         {
           "source": "/notes/songs",
@@ -234,11 +248,6 @@
         }
       ],
       "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95": [
-        {
-          "source": "/",
-          "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-          "text": "CJK + Latex Support"
-        },
         {
           "source": "/notes/config",
           "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
@@ -250,9 +259,28 @@
           "text": "CJK + Latex Support (测试)"
         }
       ],
+      "/notes/README": [
+        {
+          "source": "/",
+          "target": "/notes/README",
+          "text": "the readme file"
+        }
+      ],
+      "/notes/about-the-name": [
+        {
+          "source": "/notes/about",
+          "target": "/notes/about-the-name",
+          "text": "notes/about the name"
+        }
+      ],
       "/notes/config": [
         {
-          "source": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
+          "source": "/notes/README",
+          "target": "/notes/config",
+          "text": "notes/config"
+        },
+        {
+          "source": "/notes/README",
           "target": "/notes/config",
           "text": "config"
         },
@@ -269,12 +297,22 @@
       ],
       "/notes/custom-Domain": [
         {
+          "source": "/notes/README",
+          "target": "/notes/custom-Domain",
+          "text": "custom Domain"
+        },
+        {
           "source": "/notes/hosting",
           "target": "/notes/custom-Domain",
           "text": "Learn how to set it up with Quartz"
         }
       ],
       "/notes/editing": [
+        {
+          "source": "/notes/README",
+          "target": "/notes/editing",
+          "text": "notes/editing"
+        },
         {
           "source": "/notes/setup",
           "target": "/notes/editing",
@@ -293,12 +331,12 @@
       ],
       "/notes/hosting": [
         {
-          "source": "/notes/editing",
+          "source": "/notes/README",
           "target": "/notes/hosting",
-          "text": "Hosting Quartz online!"
+          "text": "notes/hosting"
         },
         {
-          "source": "/notes/preview-changes",
+          "source": "/notes/editing",
           "target": "/notes/hosting",
           "text": "Hosting Quartz online!"
         },
@@ -320,6 +358,11 @@
       ],
       "/notes/ignore-notes": [
         {
+          "source": "/notes/README",
+          "target": "/notes/ignore-notes",
+          "text": "notes/ignore notes"
+        },
+        {
           "source": "/notes/hosting",
           "target": "/notes/ignore-notes",
           "text": "Excluding pages from being published"
@@ -331,6 +374,11 @@
         }
       ],
       "/notes/obsidian": [
+        {
+          "source": "/notes/README",
+          "target": "/notes/obsidian",
+          "text": "notes/obsidian"
+        },
         {
           "source": "/notes/editing",
           "target": "/notes/obsidian",
@@ -344,12 +392,17 @@
       ],
       "/notes/philosophy": [
         {
-          "source": "/",
+          "source": "/notes/README",
           "target": "/notes/philosophy",
-          "text": "why I made Quartz"
+          "text": "notes/philosophy"
         }
       ],
       "/notes/preview-changes": [
+        {
+          "source": "/notes/README",
+          "target": "/notes/preview-changes",
+          "text": "notes/preview changes"
+        },
         {
           "source": "/notes/editing",
           "target": "/notes/preview-changes",
@@ -361,11 +414,18 @@
           "text": "Preview Quartz Changes"
         }
       ],
-      "/notes/setup": [
+      "/notes/recordings": [
         {
           "source": "/",
+          "target": "/notes/recordings",
+          "text": "recordings"
+        }
+      ],
+      "/notes/setup": [
+        {
+          "source": "/notes/README",
           "target": "/notes/setup",
-          "text": "Setup your own digital garden using Quartz"
+          "text": "notes/setup"
         },
         {
           "source": "/notes/obsidian",
@@ -375,16 +435,23 @@
       ],
       "/notes/showcase": [
         {
-          "source": "/",
+          "source": "/notes/README",
           "target": "/notes/showcase",
-          "text": "community digital gardens"
+          "text": "notes/showcase"
+        }
+      ],
+      "/notes/songs": [
+        {
+          "source": "/",
+          "target": "/notes/songs",
+          "text": "songs"
         }
       ],
       "/notes/troubleshooting": [
         {
-          "source": "/",
+          "source": "/notes/README",
           "target": "/notes/troubleshooting",
-          "text": "Troubleshooting and FAQ"
+          "text": "notes/troubleshooting"
         },
         {
           "source": "/notes/config",
@@ -409,30 +476,9 @@
       ],
       "/notes/updating": [
         {
-          "source": "/",
+          "source": "/notes/README",
           "target": "/notes/updating",
-          "text": "update"
-        }
-      ],
-      "/recordings": [
-        {
-          "source": "/notes",
-          "target": "/recordings",
-          "text": "recordings"
-        }
-      ],
-      "/songs": [
-        {
-          "source": "/notes",
-          "target": "/songs",
-          "text": "songs"
-        }
-      ],
-      "/tags/setup": [
-        {
-          "source": "/",
-          "target": "/tags/setup",
-          "text": "setup-related notes"
+          "text": "notes/updating"
         }
       ]
     }
@@ -440,48 +486,88 @@
   "links": [
     {
       "source": "/",
-      "target": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
-      "text": "CJK + Latex Support"
+      "target": "/notes/README",
+      "text": "the readme file"
     },
     {
       "source": "/",
-      "target": "/notes/setup",
-      "text": "Setup your own digital garden using Quartz"
+      "target": "/notes/recordings",
+      "text": "recordings"
     },
     {
       "source": "/",
-      "target": "/notes/showcase",
-      "text": "community digital gardens"
+      "target": "/notes/songs",
+      "text": "songs"
     },
     {
-      "source": "/",
-      "target": "/notes/philosophy",
-      "text": "why I made Quartz"
+      "source": "/notes/README",
+      "target": "/notes/config",
+      "text": "notes/config"
     },
     {
-      "source": "/",
-      "target": "/notes/updating",
-      "text": "update"
-    },
-    {
-      "source": "/",
-      "target": "/tags/setup",
-      "text": "setup-related notes"
-    },
-    {
-      "source": "/",
-      "target": "/notes/troubleshooting",
-      "text": "Troubleshooting and FAQ"
-    },
-    {
-      "source": "/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95",
+      "source": "/notes/README",
       "target": "/notes/config",
       "text": "config"
     },
     {
+      "source": "/notes/README",
+      "target": "/notes/custom-Domain",
+      "text": "custom Domain"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/editing",
+      "text": "notes/editing"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/hosting",
+      "text": "notes/hosting"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/ignore-notes",
+      "text": "notes/ignore notes"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/obsidian",
+      "text": "notes/obsidian"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/philosophy",
+      "text": "notes/philosophy"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/preview-changes",
+      "text": "notes/preview changes"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/setup",
+      "text": "notes/setup"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/showcase",
+      "text": "notes/showcase"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/troubleshooting",
+      "text": "notes/troubleshooting"
+    },
+    {
+      "source": "/notes/README",
+      "target": "/notes/updating",
+      "text": "notes/updating"
+    },
+    {
       "source": "/notes/about",
-      "target": "/about-the-name",
-      "text": "about the name"
+      "target": "/notes/about-the-name",
+      "text": "notes/about the name"
     },
     {
       "source": "/notes/config",
@@ -534,16 +620,6 @@
       "text": "FAQ and Troubleshooting guide"
     },
     {
-      "source": "/notes",
-      "target": "/recordings",
-      "text": "recordings"
-    },
-    {
-      "source": "/notes",
-      "target": "/songs",
-      "text": "songs"
-    },
-    {
       "source": "/notes/obsidian",
       "target": "/notes/setup",
       "text": "setup"
@@ -552,11 +628,6 @@
       "source": "/notes/obsidian",
       "target": "/notes/preview-changes",
       "text": "Preview Quartz Changes"
-    },
-    {
-      "source": "/notes/preview-changes",
-      "target": "/notes/hosting",
-      "text": "Hosting Quartz online!"
     },
     {
       "source": "/notes/setup",

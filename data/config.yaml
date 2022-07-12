@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Wooster North
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -8,16 +8,15 @@ enableCodeBlockCopy: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
+enableRecentNotes: true
 enableGitHubEdit: false
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink:
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  A musical archive.
 page_title:
-  "🪴 Quartz 3.2"
+  "Wooster North"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
-  - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://twitter.com/woosternorth
+  - link_name: Youtube
+    link: https://youtube.com/woosternorth

@@ -5,4 +5,4 @@ A project to publish a rich and thorough library of my music. Built through Obsi
 
 ## Site structure
 - See all [[notes/recordings|recordings]].
-- Browse the directory of [[notes/songs |songs]].
+- Browse the directory of [[notes/songs|songs]].

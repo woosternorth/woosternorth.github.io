@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "76d26a3707af38cb",
+        "id": "59252c9dfaed84e1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_index.md",
+            "file": "notes/songs.md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "63c955177c8b2c8e",
+        "id": "91eda863a39b9659",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/setup.md",
+            "file": "notes/hosting.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "notes/songs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "notes/songs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "notes/songs.md"
               }
             }
           }
@@ -140,17 +140,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "76d26a3707af38cb",
+  "active": "59252c9dfaed84e1",
   "lastOpenFiles": [
-    "_index2.md",
-    "notes/hosting.md",
-    "notes/preview changes.md",
-    "notes/editing.md",
-    "notes/troubleshooting.md",
-    "notes/setup.md",
-    "_index.md",
-    "templates/post.md",
+    "notes/in the silt.md",
+    "notes/songs.md",
     "notes/README.md",
-    "notes/config.md"
+    "notes/hosting.md",
+    "notes/custom Domain.md",
+    "notes/config.md",
+    "_index.md",
+    "Untitled.md",
+    "notes/updating.md",
+    "notes/troubleshooting.md"
   ]
 }

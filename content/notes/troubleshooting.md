@@ -2,34 +2,7 @@
 title: "Troubleshooting and FAQ"
 ---
 
-Still having trouble? Here are a list of common questions and problems people encounter when installing Quartz.
 
-While you're here, join our [Discord](https://discord.gg/cRFFHYye7t) :)
-
-### Does Quartz have Latex support?
-Yes! See [CJK + Latex Support (测试)](notes/CJK%20+%20Latex%20Support%20(测试).md) for a brief demo.
-
-### Can I use \<Obsidian Plugin\> in Quartz?
-Unless it produces direct Markdown output in the file, no. There currently is no way to bundle plugin code with Quartz.
-
-The easiest way would be to add your own HTML partial that supports the functionality you are looking for.
-
-### My GitHub pages is just showing the README and not Quartz
-Make sure you set the source to deploy from `master` (and not `hugo`) using `/ (root)`! See more in the [hosting](/notes/hosting) guide
-
-### Some of my pages have 'January 1, 0001' as the last modified date
-This is a problem caused by `git` treating files as case-insensitive by default and some of your posts probably have capitalized file names. You can turn this off in your Quartz by running this command.
-
-```shell
-# in the root of your Quartz (same folder as config.toml)
-git config core.ignorecase true
-
-# or globally (not recommended)
-git config --global core.ignorecase true
-```
-
-### Can I publish only a subset of my pages?
-Yes! Quartz makes selective publishing really easy. Heres a guide on [excluding pages from being published](notes/ignore%20notes.md).
 
 ### Can I host this myself and not on GitHub Pages?
 Yes! All built files can be found under `/public` in the `master` branch. More details under [hosting](notes/hosting.md).

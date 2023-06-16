@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - wooster north</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>wooster north</h1>
+        <nav>
+            <ul>
+                
+                    <li><a href="/">Home</a></li>
+                
+                    <li><a href="/about">About</a></li>
+                
+                    <li><a href="/contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+<div id="filters">
+    <input type="text" id="search" placeholder="Search...">
+    <select id="statusFilter">
+        <option value="">Filter by status</option>
+        <option value="completed">Completed</option>
+        <option value="in-progress">In progress</option>
+    </select>
+</div>
+
+<ul id="piecesList">
+    
+        <li class="piece" data-title="incomplete" data-status="completed">
+            <h2>incomplete</h2>
+            <p>Type: improvisation</p>
+            <p>Status: completed</p>
+            <p>Instruments: piano, violin</p>
+            <p>Authors: Author 1, Author 2</p>
+            <p>Topics: classical, romantic</p>
+            <p>Date: 2023-04-08</p>
+        </li>
+    
+</ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('search');
+    const statusFilter = document.getElementById('statusFilter');
+    const piecesList = document.getElementById('piecesList');
+    const pieces = Array.from(document.getElementsByClassName('piece'));
+
+    const filterPieces = () => {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const selectedStatus = statusFilter.value;
+
+        pieces.forEach(piece => {
+            const title = piece.dataset.title;
+            const status = piece.dataset.status;
+
+            if (searchTerm && !title.includes(searchTerm)) {
+                piece.style.display = 'none';
+                return;
+            }
+
+            if (selectedStatus && status !== selectedStatus) {
+                piece.style.display = 'none';
+                return;
+            }
+
+            piece.style.display = 'block';
+        });
+    };
+
+    searchInput.addEventListener('input', filterPieces);
+    statusFilter.addEventListener('change', filterPieces);
+});
+</script>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 wooster north. All rights reserved.</p>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<div id="filters">
+    <input type="text" id="search" placeholder="Search...">
+    <select id="statusFilter">
+        <option value="">Filter by status</option>
+        <option value="completed">Completed</option>
+        <option value="in-progress">In progress</option>
+    </select>
+</div>
+
+<h2>All Pieces</h2>
+
+  <div id="pieces-container">
+    {% for piece in collections.pieces %}
+     <div class="piece">
+       <h3>{{ piece.data.title }}</h3>
+
+       {% if piece.data.type == "improvisation" %}
+         {# Display information for improvisation pieces #}
+         <p>Type: Improvisation</p>
+         <p>Instruments: {{ piece.data.instruments | join(', ') }}</p>
+         <p>Authors: {{ piece.data.authors | join(', ') }}</p>
+         <p>Topics: {{ piece.data.topics | join(', ') }}</p>
+       {% elif piece.data.type == "cover" or piece.data.type == "song" %}
+         {# Display information for cover and song pieces #}
+         <p>Type: {{ piece.data.type | capitalize }}</p>
+         <p>Status: {{ piece.data.status }}</p>
+         <p>Instruments: {{ piece.data.instruments | join(', ') }}</p>
+         <p>Authors: {{ piece.data.authors | join(', ') }}</p>
+       {% endif %}
+
+       <p>Date: {{ piece.data.date | dateDisplay }}</p>
+       <a href="{{ piece.url }}">Read more</a>
+     </div>
+    {% endfor %}
+  </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('search');
+    const statusFilter = document.getElementById('statusFilter');
+    const piecesList = document.getElementById('piecesList');
+    const pieces = Array.from(document.getElementsByClassName('piece'));
+
+    const filterPieces = () => {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const selectedStatus = statusFilter.value;
+
+        pieces.forEach(piece => {
+            const title = piece.dataset.title;
+            const status = piece.dataset.status;
+
+            if (searchTerm && !title.includes(searchTerm)) {
+                piece.style.display = 'none';
+                return;
+            }
+
+            if (selectedStatus && status !== selectedStatus) {
+                piece.style.display = 'none';
+                return;
+            }
+
+            piece.style.display = 'block';
+        });
+    };
+
+    searchInput.addEventListener('input', filterPieces);
+    statusFilter.addEventListener('change', filterPieces);
+});
+</script>
+{% endblock %}

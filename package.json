@@ -1,0 +1,28 @@
+{
+  "name": "woosternorth.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass src/scss/main.scss src/assets/css/styles.css",
+    "watch:scss": "npm run scss -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woosternorth/woosternorth.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woosternorth/woosternorth.github.io/issues"
+  },
+  "homepage": "https://github.com/woosternorth/woosternorth.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.61.0"
+  }
+}
